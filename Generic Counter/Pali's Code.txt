@@ -1,0 +1,113 @@
+﻿Public Class Form1
+    Dim txt As String = "Help"
+    Dim clicks As Integer = 0
+
+    Dim labelMessage = "Clicks: <v>"
+
+    ReadOnly placeholders As Dictionary(Of String, ValueDelegate) = New Dictionary(Of String, ValueDelegate)()
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        placeholders.Add("<v>", AddressOf GetClicks)
+        placeholders.Add("<t>", AddressOf getTxt)
+        UpdateValue(clicks)
+
+        ToolTip1.SetToolTip(PictureBox1, "Help me")
+        ToolTip1.SetToolTip(VScrollBar1, "Help me again")
+    End Sub
+
+    Function GetClicks() As String
+        Return clicks.ToString()
+    End Function
+
+    Function getTxt() As String
+        Return txt.ToString()
+    End Function
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If (txt = "Help") Then
+            txt = "UwU"
+        Else
+            txt = "Help"
+        End If
+
+        clicks += 1
+
+        UpdateValue(clicks)
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        'Me.Close()
+        CheckBox1.BackColor = Color.Lime
+        Timer1.Start()
+    End Sub
+
+    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
+        clicks = TrackBar1.Value
+        UpdateValue(clicks)
+    End Sub
+
+    Sub UpdateValue(value As Integer)
+        labelMessage = Fix(TextBox1.Text)
+
+        Button1.Text = txt
+
+        'PictureBox1.Size = New Size(Math.Pow(value, 2), Math.Pow(value, 2))
+
+        PictureBox1.Size = New Size(value * 5, value * 5)
+
+        Label1.Text = labelMessage
+
+        TrackBar1.Value = value
+
+        ProgressBar1.Value = value
+
+        VScrollBar1.Value = value
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        CheckBox1.BackColor = Color.Magenta
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        PictureBox1.Visible = Not PictureBox1.Visible
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Me.Close()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Dim msg = "This is a message inside a popup!"
+        MsgBox(msg, vbOKOnly, "Epic")
+    End Sub
+
+    Private Sub PictureBox1_MouseHover(sender As Object, e As EventArgs) Handles PictureBox1.MouseHover
+
+    End Sub
+
+    Private Sub VScrollBar1_Scroll(sender As Object, e As ScrollEventArgs) Handles VScrollBar1.Scroll
+        clicks = VScrollBar1.Value
+        UpdateValue(clicks)
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        UpdateValue(clicks)
+    End Sub
+
+    Delegate Function ValueDelegate() As String
+
+    Function Fix(str As String)
+        Dim str1 As String = str
+        For i = 0 To placeholders.Count - 1
+            str1 = Strings.Replace(str1, placeholders.Keys(i), placeholders.Values(i)())
+        Next i
+        Return str1
+    End Function
+
+    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        Select Case e.KeyCode
+            Case Keys.Escape
+                Me.Close()
+        End Select
+    End Sub
+End Class

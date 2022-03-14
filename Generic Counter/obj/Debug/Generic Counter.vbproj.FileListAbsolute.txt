@@ -1,0 +1,32 @@
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.AssemblyReference.cache
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.genericCounter.resources
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.appearance.resources
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Form3.resources
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Resources.resources
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.GenerateResource.cache
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.CoreCompileInputs.cache
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\bin\Debug\Generic Counter.exe.config
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\bin\Debug\Generic Counter.exe
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\bin\Debug\Generic Counter.pdb
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\bin\Debug\Generic Counter.xml
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.exe
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.xml
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.pdb
+C:\Users\ilove\source\repos\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Form4.resources
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\bin\Debug\Generic Counter.exe.config
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\bin\Debug\Generic Counter.exe
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\bin\Debug\Generic Counter.pdb
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\bin\Debug\Generic Counter.xml
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.AssemblyReference.cache
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.appearance.resources
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Form4.resources
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Resources.resources
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.GenerateResource.cache
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.CoreCompileInputs.cache
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.exe
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.xml
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.pdb
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Main.resources
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Logs.resources
