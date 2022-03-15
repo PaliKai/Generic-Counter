@@ -21,7 +21,6 @@ C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\bin\Debug\Generic Counter
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.AssemblyReference.cache
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.SuggestedBindingRedirects.cache
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.appearance.resources
-C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Form4.resources
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Resources.resources
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.GenerateResource.cache
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.vbproj.CoreCompileInputs.cache
@@ -30,3 +29,4 @@ C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic Counter.pdb
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Main.resources
 C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Logs.resources
+C:\Users\ilove\Desktop\Generic-Counter\Generic Counter\obj\Debug\Generic_Counter.Keybinds.resources

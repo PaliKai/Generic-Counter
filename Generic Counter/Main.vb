@@ -17,6 +17,7 @@ Public Class Main
 
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LogEvent("Loading...")
+
         placeholders.Add("<c>", AddressOf GetCounting)
 
         audios.Add(New Audio("No Sound", MenuItemNoSound))
@@ -31,6 +32,7 @@ Public Class Main
         SetValueFromFile()
 
         UpdateBindText()
+
         ToolTipSave.SetToolTip(CheckBoxSave, "UNCHECKING THIS WILL DISABLE ALL ACTIVE FEATURES!")
 
         Appearance.SetTheme(Appearance.Themes(My.Settings.ThemeNumber), Nothing, False)
@@ -279,8 +281,8 @@ Public Class Main
 
     Private Sub MenuItemAppearance_Click(sender As Object, e As EventArgs) Handles MenuItemAppearance.Click
         appearance.Location = New Point(MyBase.Location.X + MyBase.Width / 2 - appearance.Width / 2, MyBase.Location.Y + MyBase.Height / 2 - appearance.Height / 2)
-        appearance.Show()
-        appearance.BringToFront()
+        Appearance.ShowDialog()
+        Appearance.BringToFront()
     End Sub
 
     Private Sub LabelCounter_TextChanged(sender As Object, e As EventArgs) Handles LabelCounter.TextChanged

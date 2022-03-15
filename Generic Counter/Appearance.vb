@@ -7,6 +7,7 @@
     Public ReadOnly Themes = New List(Of Theme)({GenericTheme, DeathTheme, AnimalCrossingLightTheme, AnimalCrossingDarkTheme})
 
     Private Sub Appearance_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         If My.Settings.ThemeNumber > 0 Then
             Dim a = My.Settings.forecolor
             Dim b = My.Settings.backcolor
